@@ -52,23 +52,23 @@ Proofs (Screenshots & GIF)
 Screenshots
 
 Step 1 — Initial dummy file creation
-Step 1
+assets/screenshot1.png
 
 Step 2 — Delete & move operations
-Step 2
+assets/screenshot2.png
 
 Step 3 — Stats output
-Step 3
+assets/screenshot3.png
 
 Step 4 — Replay output
-Step 4
+assets/screenshot4.png
 
 Step 5 — GIF generation success
-Step 5
+assets/screenshot5.png
 GIF Proof
 
 Full session demo
-Session GIF
+assets/session_demo.gif
 
 Note: GIF shows a frame per action to highlight each step clearly.
 Recommended .gitignore
