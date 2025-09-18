@@ -28,7 +28,6 @@ Usage Guide
 1️⃣ Record Dummy Session
 
 cd ~/blackbox-dummy
-
 bb record create dummy_files/file1.txt
 bb record create dummy_files/file2.txt
 bb record create dummy_files/file3.txt
@@ -53,19 +52,19 @@ Proofs (Screenshots & GIF)
 Screenshots
 
 Step 1 — Initial dummy file creation
-Step 1 — File creation
+Step 1
 
 Step 2 — Delete & move operations
-Step 2 — Delete & move
+Step 2
 
 Step 3 — Stats output
-Step 3 — Stats
+Step 3
 
 Step 4 — Replay output
-Step 4 — Replay
+Step 4
 
 Step 5 — GIF generation success
-Step 5 — GIF
+Step 5
 GIF Proof
 
 Full session demo
@@ -92,4 +91,4 @@ Notes
     Dummy files ensure safety of real data.
 
     Screenshots + GIF showcase repo power and workflow.
-
+    
