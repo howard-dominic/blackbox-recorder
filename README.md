@@ -1,6 +1,4 @@
-# Blackbox Recorder — Terminal Activity Tracker
-
-**Description:**  
+kk**Description:**  
 Blackbox Recorder logs file operations and generates visual proofs. Ideal for auditing, demos, and professional documentation.
 
 ---
@@ -91,4 +89,3 @@ Notes
     Dummy files ensure safety of real data.
 
     Screenshots + GIF showcase repo power and workflow.
-    
