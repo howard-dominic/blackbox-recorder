@@ -46,31 +46,32 @@ bb replay blackbox_logs/$LATEST_SESSION
 
 bb visualize blackbox_logs/$LATEST_SESSION
 
-Terminal-generated GIF saved at:
+📂 Terminal-generated GIF saved at:
 assets/session_demo.gif
 Proofs (Screenshots & GIF)
 Screenshots
 
 Step 1 — Initial dummy file creation
-assets/screenshot1.png
+Step 1
 
 Step 2 — Delete & move operations
-assets/screenshot2.png
+Step 2
 
 Step 3 — Stats output
-assets/screenshot3.png
+Step 3
 
 Step 4 — Replay output
-assets/screenshot4.png
+Step 4
 
 Step 5 — GIF generation success
-assets/screenshot5.png
+Step 5
 GIF Proof
 
 Full session demo
-assets/session_demo.gif
+Session GIF
 
-Note: GIF shows a frame per action to highlight each step clearly.
+    🔎 GIF shows a frame per action to highlight each step clearly.
+
 Recommended .gitignore
 
 blackbox-venv/
@@ -82,12 +83,14 @@ assets/*.png
 
 License & Version
 
-License: MIT
-Version: 1.0.0
+    License: MIT
+
+    Version: 1.0.0
+
 Notes
 
     Keep README clean, professional, minimal emojis.
 
     Dummy files ensure safety of real data.
 
-    Screenshots + GIF showcase repo power and workflow.o
+    Screenshots + GIF showcase repo power and workflow.
