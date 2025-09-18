@@ -1,0 +1,14 @@
+# Virtual environment
+blackbox-venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Blackbox logs and GIFs
+blackbox_logs/*.json
+blackbox_logs/*.gif
+
+# Assets/screenshots
+assets/*.png
+
