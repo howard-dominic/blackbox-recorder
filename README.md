@@ -1,4 +1,6 @@
-kk**Description:**  
+# Blackbox Recorder — Terminal Activity Tracker
+
+**Description:**  
 Blackbox Recorder logs file operations and generates visual proofs. Ideal for auditing, demos, and professional documentation.
 
 ---
@@ -45,7 +47,7 @@ bb replay blackbox_logs/$LATEST_SESSION
 bb visualize blackbox_logs/$LATEST_SESSION
 
 Terminal-generated GIF saved at:
-~/blackbox-dummy/blackbox_logs/session_XXXX.gif
+assets/session_demo.gif
 Proofs (Screenshots & GIF)
 Screenshots
 
@@ -88,4 +90,4 @@ Notes
 
     Dummy files ensure safety of real data.
 
-    Screenshots + GIF showcase repo power and workflow.
+    Screenshots + GIF showcase repo power and workflow.o
