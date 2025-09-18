@@ -10,9 +10,9 @@ Blackbox Recorder logs file operations and generates visual proofs. Ideal for au
 - Record file actions: `create`, `delete`, `move`, `rename`.
 - Replay recorded sessions exactly as they happened.
 - Generate GIF proofs of terminal actions.
-- Stats of recorded actions for auditing.
-- Safe dummy file usage — your real files are untouched.
-- Professional-ready documentation.
+- View stats of recorded actions for auditing.
+- Safe dummy file usage — real files remain untouched.
+- Professional-ready documentation for recruiters and clients.
 
 ---
 
@@ -47,34 +47,32 @@ bb replay blackbox_logs/$LATEST_SESSION
 
 bb visualize blackbox_logs/$LATEST_SESSION
 
-GIF saved at:
+Terminal-generated GIF saved at:
 ~/blackbox-dummy/blackbox_logs/session_XXXX.gif
 Proofs (Screenshots & GIF)
+Screenshots
 
-Screenshots:
+Step 1 — Initial dummy file creation
+Step 1 — File creation
 
-    Initial dummy file creation:
-    assets/screenshot1.png
+Step 2 — Delete & move operations
+Step 2 — Delete & move
 
-    Delete & move operations:
-    assets/screenshot2.png
+Step 3 — Stats output
+Step 3 — Stats
 
-    Stats output:
-    assets/screenshot3.png
+Step 4 — Replay output
+Step 4 — Replay
 
-    Replay output:
-    assets/screenshot4.png
+Step 5 — GIF generation success
+Step 5 — GIF
+GIF Proof
 
-    GIF generation success:
-    assets/screenshot5.png
+Full session demo
+Session GIF
 
-GIF Proof (from terminal or screenshots):
-
-assets/session_demo.gif
-
-    Note: GIF shows a frame per action to highlight each step clearly.
-
-Recommended Git Ignore
+Note: GIF shows a frame per action to highlight each step clearly.
+Recommended .gitignore
 
 blackbox-venv/
 __pycache__/
@@ -83,12 +81,15 @@ blackbox_logs/*.json
 blackbox_logs/*.gif
 assets/*.png
 
+License & Version
+
+License: MIT
+Version: 1.0.0
 Notes
 
     Keep README clean, professional, minimal emojis.
 
-    Dummy files ensure safety of your real data.
+    Dummy files ensure safety of real data.
 
     Screenshots + GIF showcase repo power and workflow.
 
-    Version: 1.0.0
