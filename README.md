@@ -1,22 +1,24 @@
-KBlackbox Recorder — Terminal Activity Tracker
+# ⚡ Blackbox Recorder — Terminal Activity Tracker  
 
-Track your terminal file actions like a pro — create, move, delete, and replay them visually. Perfect for demos, auditing, and professional documentation.
+> Track your terminal file actions like a pro — create, move, delete, and replay them **visually**.  
+> Perfect for demos, auditing, and professional documentation.  
 
-🚀 Features
+---
 
-Record file actions: create, delete, move, rename
+## 🚀 Features  
 
-Replay recorded sessions exactly as they happened
+✅ Record file actions: **create, delete, move, rename**  
+✅ Replay recorded sessions **exactly as they happened**  
+✅ Generate **GIF proofs** of terminal actions  
+✅ View **stats of recorded actions**  
+✅ Safe dummy file usage — real files stay **untouched**  
+✅ Professional-ready documentation for **recruiters and clients**  
 
-Generate GIF proofs of terminal actions
+---
 
-View stats of recorded actions
+## 🛠️ Requirements  
 
-Safe dummy file usage — real files stay untouched
-
-Professional-ready documentation for recruiters and clients
-
-🛠️ Requirements
+```bash
 python3 -m venv blackbox-venv
 source blackbox-venv/bin/activate
 pip install -r requirements.txt
@@ -44,7 +46,6 @@ bb replay ../blackbox_logs/$LATEST_SESSION
 
 bb visualize ../blackbox_logs/$LATEST_SESSION
 
-📸 Proofs (Screenshots & GIF)
 
 (Attach images here; filenames must match your assets folder.)
 
@@ -68,6 +69,17 @@ Full Session Demo GIF
 
     🔎 Each GIF frame highlights one action — perfect for demonstrations.
 
+
+⚡ Tips & Tricks for Power Users
+
+Handles file collisions gracefully
+
+Works on Windows/Linux/macOS
+
+Dummy files ensure your real files remain safe
+
+Use the --verbose flag in bb record for detailed logs
+
 ⚠️ Recommended .gitignore
 
 blackbox-venv/
@@ -75,10 +87,9 @@ __pycache__/
 *.pyc
 blackbox_logs/*.json
 blackbox_logs/*.gif
-# ⚠️ Do NOT ignore assets/
+# DO NOT ignore assets/
 
 📄 License & Version
 
-    License: MIT
-
-    Version: 1.0.0
+License: MIT
+Version: 1.0.0
