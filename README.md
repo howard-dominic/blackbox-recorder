@@ -1,22 +1,21 @@
-Blackbox Recorder — Terminal Activity Tracker
+# 🚀 Blackbox Recorder — Terminal Activity Tracker
 
-Track your terminal file actions like a pro — create, move, delete, and replay them visually. Perfect for demos, auditing, and professional documentation.
+**Track your terminal file actions like a pro** — create, move, delete, replay, and produce visual proofs. Perfect for demos, auditing, and professional documentation.
 
-🚀 Features
+---
 
-Record file actions: create, delete, move, rename
+## ✨ Features
 
-Replay recorded sessions exactly as they happened
+- **Record** file actions: `create`, `delete`, `move`, `rename`  
+- **Replay** recorded sessions exactly as they happened  
+- **Generate GIF proofs** of terminal actions  
+- **View stats** of recorded actions for auditing  
+- **Safe dummy file** usage — your real files stay untouched  
+- **Recruiter & client friendly** documentation
 
-Generate GIF proofs of terminal actions
+---
 
-View stats of recorded actions
-
-Safe dummy file usage — real files stay untouched
-
-Professional-ready documentation for recruiters and clients
-
-🛠️ Requirements
+## 🛠️ Requirements  
 
 python3 -m venv blackbox-venv
 source blackbox-venv/bin/activate
@@ -25,9 +24,9 @@ pip install blackbox-recorder==1.0.0
 
 
 🎯 Usage Guide
-
 1️⃣ Record a dummy session
-     cd ~/blackbox-dummy
+
+cd ~/blackbox-dummy
 bb record create dummy_files/file1.txt
 bb record create dummy_files/file2.txt
 bb record create dummy_files/file3.txt
@@ -39,49 +38,50 @@ bb record move dummy_files/file1.txt dummy_files/file1_renamed.txt
 
 
 2️⃣ Replay the latest session
-     LATEST_SESSION=$(ls -t ../blackbox_logs | grep session | head -n1)
+
+LATEST_SESSION=$(ls -t ../blackbox_logs | grep session | head -n1)
 bb replay ../blackbox_logs/$LATEST_SESSION
 
 
-3️⃣ Generate the GIF proof
-     bb visualize ../blackbox_logs/$LATEST_SESSION
- 
+3 Generate the GIF proof
 
+bb visualize ../blackbox_logs/$LATEST_SESSION
+
+
+ 
 📸 Proofs (Screenshots & GIF)
 
-(Attach images here; filenames must match your assets folder.)
 
-Step 1 — Initial Dummy File Creation
+🔹 Step 1 — Initial Dummy File Creation
 ![Step 1](assets/screenshot1.png)
 
-Step 2 — Delete & Move Operations
+
+🔹 Step 2 — Delete & Move Operations
 ![Step 2](assets/screenshot2.png)
 
-Step 3 — Stats Output
+🔹 Step 3 — Stats Output
 ![Step 3](assets/screenshot3.png)
 
-Step 4 — Replay Output
+🔹 Step 4 — Replay Output
 ![Step 4](assets/screenshot4.png)
 
-Step 5 — GIF Generation Success
+🔹 Step 5 — GIF Generation Success
 ![Step 5](assets/screenshot5.png)
 
-Full Session Demo GIF
+🎞️ Full Session Demo GIF
 ![Session Demo](assets/blackbox_demo.gif)
 
 
-⚠️ Recommended .gitignore
+## 📄 License  
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.  
 
-blackbox-venv/
-__pycache__/
-*.pyc
-blackbox_logs/*.json
-blackbox_logs/*.gif
-# ⚠️ Do NOT ignore assets/
+---
 
+## 🤝 Contributing  
+Contributions, issues, and feature requests are welcome!  
+Feel free to open an [issue](../../issues) or submit a PR.  
 
-📄 License & Version
+---
 
-License: MIT
-
-Version: 1.0.0
+## ⭐ Support & Recognition  
+If you find this project useful, please ⭐ the repo — it helps more people discover it!  
