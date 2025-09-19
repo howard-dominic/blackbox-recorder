@@ -48,24 +48,18 @@ bb replay blackbox_logs/$LATEST_SESSION
 bb visualize blackbox_logs/$LATEST_SESSION
 
 📸 Proofs (Screenshots & GIF)
-Step 1 — Initial dummy file creation
 
-Step 1
-Step 2 — Delete & move operations
-
-Step 2
-Step 3 — Stats output
-
-Step 3
-Step 4 — Replay output
-
-Step 4
-Step 5 — GIF generation success
-
-Step 5
-🎞️ GIF Proof — Full Session Demo
-
-Session Demo
+Step 1 — Initial Dummy File Creation
+![Step 1](assets/screenshot1.png)
+Step 2 — Delete & Move Operations
+![Step 2](assets/screenshot2.png)
+Step 3 — Stats Output
+![Step 3](assets/screenshot3.png)
+Step 4 — Replay Output
+![Step 4](assets/screenshot4.png)
+Step 5 — GIF Generation Success
+![Step 5](assets/screenshot5.png)
+![Session Demo](assets/blackbox_demo.gif)
 
 🔎 GIF shows one frame per action to highlight each step clearly.
 Recommended .gitignore
